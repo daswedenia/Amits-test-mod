@@ -23,6 +23,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_ORE);
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                         entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
+                        entries.add(ModBlocks.BLOCK_OF_MAGYORK);
                     }).build());
 
 
