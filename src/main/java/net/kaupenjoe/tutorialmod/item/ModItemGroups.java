@@ -11,7 +11,7 @@ import net.minecraft.text.Text;
 import net.minecraft.util.Identifier;
 
 public class ModItemGroups {
-    public static final ItemGroup PINK_GARNET_ITEMS_GROUP = Registry.register(Registries.ITEM_GROUP,
+    public static final ItemGroup AMITS_MOD = Registry.register(Registries.ITEM_GROUP,
             Identifier.of(TutorialMod.MOD_ID, "pink_garnet_items"),
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.tutorialmod.amitsmod"))
@@ -24,6 +24,7 @@ public class ModItemGroups {
                         entries.add(ModBlocks.PINK_GARNET_DEEPSLATE_ORE);
                         entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
                         entries.add(ModBlocks.BLOCK_OF_MAGYORK);
+                        entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
                     }).build());
 
 

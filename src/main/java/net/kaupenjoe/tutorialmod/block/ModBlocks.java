@@ -32,6 +32,8 @@ public class ModBlocks {
                     AbstractBlock.Settings.create().strength(4f).requiresTool().sounds(BlockSoundGroup.DEEPSLATE)));
     public static final Block BLOCK_OF_MAGYORK = registerBlock("block_of_magyork",
             new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.SAND)));
+    public static final Block BLOCK_OF_BABAE_VIKTOR = registerBlock("block_of_babae_viktor",
+            new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.SAND)));
 
 
     private static Block registerBlock(String name, Block block) {
@@ -52,6 +54,7 @@ public class ModBlocks {
             entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
             entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
             entries.add(ModBlocks.BLOCK_OF_MAGYORK);
+            entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
         });
     }
 }

@@ -8,8 +8,9 @@
   "block.tutorialmod.pink_garnet_ore": "Pink Garnet Ore",
   "block.tutorialmod.pink_garnet_deepslate_ore": "Pink Garnet Deepslate Ore",
   "block.tutorialmod.black_and_white_wallpaper": "Black and white wallpaper",
+  "block.tutorialmod.block_of_babae_viktor": "Block of babae viktor",
+  "block.tutorialmod.block_of_magyork": "Block of Magyork",
 
 
-  "itemgroup.tutorialmod.amitsmod": "amitsmod",
-  "itemgroup.tutorialmod.block_of_magyork": "Block of Magyork"
+  "itemgroup.tutorialmod.amitsmod": "Amit's Testing Mod"
 }
