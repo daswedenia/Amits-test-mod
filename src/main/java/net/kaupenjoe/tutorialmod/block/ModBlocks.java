@@ -2,6 +2,7 @@ package net.kaupenjoe.tutorialmod.block;
 
 import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.kaupenjoe.tutorialmod.TutorialMod;
+import net.kaupenjoe.tutorialmod.block.custom.MagicBlock;
 import net.minecraft.block.AbstractBlock;
 import net.minecraft.block.Block;
 import net.minecraft.block.ExperienceDroppingBlock;
@@ -34,6 +35,12 @@ public class ModBlocks {
             new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.SAND)));
     public static final Block BLOCK_OF_BABAE_VIKTOR = registerBlock("block_of_babae_viktor",
             new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.SAND)));
+    public static final Block BLOCK_OF_LEPINE = registerBlock("block_of_lepine",
+            new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.ANVIL)));
+    public static final Block BLOCK_OF_KASH = registerBlock("block_of_kash",
+            new Block(AbstractBlock.Settings.create().strength(0.3f).sounds(BlockSoundGroup.ANVIL)));
+    public static final Block MAGIC_BLOCK = registerBlock("magic_block",
+            new MagicBlock(AbstractBlock.Settings.create().strength(1f).requiresTool()));
 
 
     private static Block registerBlock(String name, Block block) {
@@ -55,6 +62,20 @@ public class ModBlocks {
             entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
             entries.add(ModBlocks.BLOCK_OF_MAGYORK);
             entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
+            entries.add(ModBlocks.BLOCK_OF_LEPINE);
+            entries.add(ModBlocks.BLOCK_OF_KASH);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
+            entries.add(ModBlocks.BLOCK_OF_KASH);
+            entries.add(ModBlocks.BLOCK_OF_LEPINE);
+            entries.add(ModBlocks.BLOCK_OF_MAGYORK);
+            entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
+        });
+
+        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries ->
+        {
+            entries.add(ModBlocks.MAGIC_BLOCK);
         });
     }
 }

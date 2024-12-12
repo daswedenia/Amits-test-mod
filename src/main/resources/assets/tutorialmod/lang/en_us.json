@@ -1,6 +1,7 @@
 {
   "item.tutorialmod.pink_garnet": "Pink Garnet",
   "item.tutorialmod.raw_pink_garnet": "Raw Pink Garnet",
+  "item.tutorialmod.chisel": "Chisel",
 
   "block.tutorialmod.pink_garnet_block": "Block of Pink Garnet",
   "block.tutorialmod.raw_pink_garnet_block": "Block of Raw Pink Garnet",
@@ -10,6 +11,9 @@
   "block.tutorialmod.black_and_white_wallpaper": "Black and white wallpaper",
   "block.tutorialmod.block_of_babae_viktor": "Block of babae viktor",
   "block.tutorialmod.block_of_magyork": "Block of Magyork",
+  "block.tutorialmod.block_of_lepine": "Block of Lepine",
+  "block.tutorialmod.block_of_kash": "Block of Kash",
+  "block.tutorialmod.magic_block": "Magic block",
 
 
   "itemgroup.tutorialmod.amitsmod": "Amit's Testing Mod"

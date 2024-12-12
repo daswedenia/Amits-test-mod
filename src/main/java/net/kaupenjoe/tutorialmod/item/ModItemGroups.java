@@ -25,6 +25,10 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
                         entries.add(ModBlocks.BLOCK_OF_MAGYORK);
                         entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
+                        entries.add(ModItems.CHISEL);
+                        entries.add(ModBlocks.BLOCK_OF_LEPINE);
+                        entries.add(ModBlocks.BLOCK_OF_KASH);
+                        entries.add(ModBlocks.MAGIC_BLOCK);
                     }).build());
 
 
