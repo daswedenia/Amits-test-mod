@@ -16,8 +16,14 @@ public class ModItemGroups {
             FabricItemGroup.builder().icon(() -> new ItemStack(ModItems.PINK_GARNET))
                     .displayName(Text.translatable("itemgroup.tutorialmod.amitsmod"))
                     .entries((displayContext, entries) -> {
+
+                        //Items
                         entries.add(ModItems.PINK_GARNET);
                         entries.add(ModItems.RAW_PINK_GARNET);
+                        entries.add(ModItems.ROTI);
+                        entries.add(ModItems.CHISEL);
+
+                        //blocks
                         entries.add(ModBlocks.PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
                         entries.add(ModBlocks.PINK_GARNET_ORE);
@@ -25,7 +31,6 @@ public class ModItemGroups {
                         entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
                         entries.add(ModBlocks.BLOCK_OF_MAGYORK);
                         entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
-                        entries.add(ModItems.CHISEL);
                         entries.add(ModBlocks.BLOCK_OF_LEPINE);
                         entries.add(ModBlocks.BLOCK_OF_KASH);
                         entries.add(ModBlocks.MAGIC_BLOCK);

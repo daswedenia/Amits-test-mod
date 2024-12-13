@@ -55,27 +55,5 @@ public class ModBlocks {
 
     public static void registerModBlocks() {
         TutorialMod.LOGGER.info("Registering Mod Blocks for " + TutorialMod.MOD_ID);
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.BUILDING_BLOCKS).register(entries -> {
-            entries.add(ModBlocks.PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.RAW_PINK_GARNET_BLOCK);
-            entries.add(ModBlocks.BLACK_AND_WHITE_WALLPAPER);
-            entries.add(ModBlocks.BLOCK_OF_MAGYORK);
-            entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
-            entries.add(ModBlocks.BLOCK_OF_LEPINE);
-            entries.add(ModBlocks.BLOCK_OF_KASH);
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.INGREDIENTS).register(entries -> {
-            entries.add(ModBlocks.BLOCK_OF_KASH);
-            entries.add(ModBlocks.BLOCK_OF_LEPINE);
-            entries.add(ModBlocks.BLOCK_OF_MAGYORK);
-            entries.add(ModBlocks.BLOCK_OF_BABAE_VIKTOR);
-        });
-
-        ItemGroupEvents.modifyEntriesEvent(ItemGroups.FUNCTIONAL).register(entries ->
-        {
-            entries.add(ModBlocks.MAGIC_BLOCK);
-        });
     }
 }
