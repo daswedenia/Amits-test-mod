@@ -14,6 +14,7 @@ public class ModItems {
     public static final Item RAW_PINK_GARNET = registerItem("raw_pink_garnet", new Item(new Item.Settings()));
     public static final Item CHISEL = registerItem("chisel", new ChiselItem(new Item.Settings().maxDamage(32)));
     public static final Item ROTI = registerItem("roti", new Item(new Item.Settings().food(ModFoodComponents.ROTI)));
+    public static final Item BREAD_FLOUR = registerItem("bread_flour", new Item(new Item.Settings().food(ModFoodComponents.BREAD_FLOUR)));
 
 
     private static Item registerItem(String name, Item item) {
